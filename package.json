@@ -1,0 +1,32 @@
+{
+  "name": "my-first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore session"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemishevsky/my-first-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemishevsky/my-first-project/issues"
+  },
+  "homepage": "https://github.com/lemishevsky/my-first-project#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.7.12",
+    "morgan": "^1.9.1"
+  }
+}
